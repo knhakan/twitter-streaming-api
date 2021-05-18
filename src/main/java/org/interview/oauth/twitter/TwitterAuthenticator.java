@@ -1,15 +1,3 @@
-/**
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- *       ________  __    __  ________    ____       ______   *
- *      /_/_/_/_/ /_/   /_/ /_/_/_/_/  _/_/_/_   __/_/_/_/   *
- *     /_/_____  /_/___/_/    /_/    /_/___/_/  /_/          *
- *    /_/_/_/_/   /_/_/_/    /_/    /_/_/_/_/  /_/           *
- *   ______/_/       /_/    /_/    /_/   /_/  /_/____        *
- *  /_/_/_/_/       /_/    /_/    /_/   /_/    /_/_/_/ . io  *
- *                                                           *
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
- *
- */
 package org.interview.oauth.twitter;
 
 import java.io.IOException;
@@ -26,11 +14,7 @@ import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 
-/**
- * Provide access to the Twitter API by implementing the required OAuth flow
- *
- * @author Carlo Sciolla
- */
+
 public class TwitterAuthenticator {
 
     private final PrintStream out;

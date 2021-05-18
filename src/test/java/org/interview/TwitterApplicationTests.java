@@ -10,11 +10,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.google.gson.Gson;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.interview.api.FilteredStreamAPI;
 import org.interview.model.Tweet;
-import org.interview.service.TwitterService;
 import org.interview.util.TweetUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
