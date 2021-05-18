@@ -1,23 +1,9 @@
-```
-*************************************************************
-*                                                           *
-*       ________  __    __  ________    ____       ______   *
-*      /_/_/_/_/ /_/   /_/ /_/_/_/_/  _/_/_/_   __/_/_/_/   *
-*     /_/_____  /_/___/_/    /_/    /_/___/_/  /_/          *
-*    /_/_/_/_/   /_/_/_/    /_/    /_/_/_/_/  /_/           *
-*   ______/_/       /_/    /_/    /_/   /_/  /_/____        *
-*  /_/_/_/_/       /_/    /_/    /_/   /_/    /_/_/_/ . io  *
-*                                                           *
-*************************************************************
-```
-
-# Sytac Java Exercise #
 This simple application connects to Twitter Streaming API 1.1 and filters streaming data. The aim is to visualize the filtered data to the user. 
 
 ## Features ##
 + The application connects to Twitter Streaming API 1.1, using the following values:
-    + Consumer Key: `RLSrphihyR4G2UxvA0XBkLAdl`
-    + Consumer Secret: `FTz2KcP1y3pcLw0XXMX5Jy3GTobqUweITIFy4QefullmpPnKm4`
+    + Consumer Key: `*insertConsumerKey*`
+    + Consumer Secret: `*insertConsumerSecret`
     + The file 'authenticator.txt' contains the required link for the access to the API.
  * The app name is `java-exercise`
 + It retrieves the incoming messages for 30 seconds or up to 100 messages, whichever comes first.
