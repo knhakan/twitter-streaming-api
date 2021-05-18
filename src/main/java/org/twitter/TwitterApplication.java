@@ -1,16 +1,16 @@
-package org.interview;
+package org.twitter;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.interview.api.FilteredStreamAPI;
-import org.interview.model.Tweet;
-import org.interview.service.TwitterService;
-import org.interview.util.TweetUtil;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.twitter.api.FilteredStreamAPI;
+import org.twitter.model.Tweet;
+import org.twitter.service.TwitterService;
+import org.twitter.util.TweetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

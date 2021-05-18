@@ -1,7 +1,8 @@
-package org.interview.util;
+package org.twitter.util;
 
-import org.interview.model.Tweet;
 import org.json.JSONObject;
+import org.twitter.model.Tweet;
+
 import java.util.ArrayList;
 import java.text.ParseException;
 import com.google.gson.Gson;

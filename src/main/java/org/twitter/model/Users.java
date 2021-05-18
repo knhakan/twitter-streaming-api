@@ -1,4 +1,4 @@
-package org.interview.model;
+package org.twitter.model;
 
 public class Users {
   private String name;

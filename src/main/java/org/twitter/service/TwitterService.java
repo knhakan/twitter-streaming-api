@@ -1,7 +1,8 @@
-package org.interview.service;
+package org.twitter.service;
 
 import java.io.PrintStream;
-import org.interview.oauth.twitter.TwitterAuthenticator;
+
+import org.twitter.oauth.twitter.TwitterAuthenticator;
 
 public class TwitterService {
     final String consumerKey = "RLSrphihyR4G2UxvA0XBkLAdl";

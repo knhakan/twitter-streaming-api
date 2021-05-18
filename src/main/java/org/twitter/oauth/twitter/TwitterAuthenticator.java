@@ -1,4 +1,4 @@
-package org.interview.oauth.twitter;
+package org.twitter.oauth.twitter;
 
 import java.io.IOException;
 import java.io.PrintStream;

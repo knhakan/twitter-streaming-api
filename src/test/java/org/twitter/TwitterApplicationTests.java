@@ -1,4 +1,4 @@
-package org.interview;
+package org.twitter;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -11,12 +11,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.interview.api.FilteredStreamAPI;
-import org.interview.model.Tweet;
-import org.interview.util.TweetUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.twitter.api.FilteredStreamAPI;
+import org.twitter.model.Tweet;
+import org.twitter.util.TweetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

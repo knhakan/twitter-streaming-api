@@ -1,4 +1,4 @@
-package org.interview.model;
+package org.twitter.model;
 
 import java.util.List;
 

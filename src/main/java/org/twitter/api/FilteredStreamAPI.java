@@ -1,4 +1,4 @@
-package org.interview.api;
+package org.twitter.api;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -11,9 +11,9 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-import org.interview.util.TweetUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.twitter.util.TweetUtil;
 
 import java.io.*;
 import java.net.URISyntaxException;
