@@ -5,8 +5,8 @@ import java.io.PrintStream;
 import org.twitter.oauth.twitter.TwitterAuthenticator;
 
 public class TwitterService {
-    final String consumerKey = "RLSrphihyR4G2UxvA0XBkLAdl";
-    final String consumerSecret = "FTz2KcP1y3pcLw0XXMX5Jy3GTobqUweITIFy4QefullmpPnKm4";
+    final String consumerKey = "consumerKey" //insert the consumer key;
+    final String consumerSecret = "consumerSecret" //insert the consumer secret;
     final String authenticatorFile = "authenticator.txt";
 
     /**
